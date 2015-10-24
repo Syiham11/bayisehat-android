@@ -30,10 +30,6 @@
         </activity>
         <activity android:name=".activity.LoginChoserActivity" >
         </activity>
-        <activity
-            android:name=".activity.LoginActivity"
-            android:label="@string/title_activity_login" >
-        </activity>
 
 
         <!-- [START gcm_receiver] -->

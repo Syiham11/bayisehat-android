@@ -21,18 +21,18 @@ public class LoginChoserActivity extends AppCompatActivity {
         loginIbu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginChoserActivity.this, LoginActivity.class);
-                intent.putExtra("mode", "ibu");
-                startActivity(intent);
+//                Intent intent = new Intent(LoginChoserActivity.this, LoginActivity.class);
+//                intent.putExtra("mode", "ibu");
+//                startActivity(intent);
             }
         });
 
         loginBayi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginChoserActivity.this, LoginActivity.class);
-                intent.putExtra("mode", "bayi");
-                startActivity(intent);
+//                Intent intent = new Intent(LoginChoserActivity.this, LoginActivity.class);
+//                intent.putExtra("mode", "bayi");
+//                startActivity(intent);
             }
         });
     }
